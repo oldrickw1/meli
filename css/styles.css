@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+:root {
+    --button-color: #a69b7c;
+    --text-color: #7F7C6B;
+    --background-color: #EDE9D3;
+    --background-second-color: #C3BFAA;
+  }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+body {
+    color: var(--text-color);
+}
+
+li  {
+    padding: 2px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+button {
+    font-size: 1vw;
+    color: #fff;
+    background-color: var(--button-color);
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 15px 30px;
+    border: 1px solid rgba(128, 128, 128, 0.578); /* Button border */
+
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+
+}
+
+#intro_title {
+    font-size: 5vw;
+    margin-bottom: 30px;
+}
+
+
+
+#intro {
+}
+
+.content_actionButtons {
+    margin-top: 20px;
+}
+
+.content_actionButtons button {
+    margin-right: 60px;
+}
+
+#why {
+    padding: 20px 0px;
+}
+
+#why h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3vw;
+}
+
+#why_image {
+    height: 500px;
+}
+
+#why_text p {
+    padding: 20px;
+    font-size: large;
+}
+
+#why_button_holder{
+    justify-content: center;
+}
+
+
+/* HOW?  */
+#how {
+    background-color: var(--background-color);
+}
+
+#how div {
+    margin-right: 30px;
+}
+
+#how h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 3vw;
+}
+
+#how .flex {
+    justify-content: space-around;
+}
+
+#how h4 {
+    margin-bottom: 30px;
+}
+
+#how button {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#how img {
+    height: 500px;
+}
+
+
+/* my story */
+
+#my_story {
+    margin-top: 50px;
+}
+#my_story h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3vw;
+
+}
+
+#my_story img {
+    height: 500px;
+}
+
+#my_story p {
+    margin-right: 30px;
+}
+
+
+/* pricing */
+#pricing {
+    background-color: var(--background-color);
+    text-align: center;
+    color: black;
+    padding-bottom: 60px;
+}
+
+#pricing h1 {
+    padding: 40px;
+    font-size: 3vw;
+}
+
+.package {
+    background: var(--background-second-color);
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.packages {
+    justify-content: space-around;
+}
+
+.packages button {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.package_description {
+    background-color: var(--background-color);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+
+
+/* register */
+#register {
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+#register img {
+    height: 500px;
+}
+
+.register_info {
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    text-align: start;
+    width: 500px;
+}
+
+#register button {
+    width: 200px;
+    margin-left: 140px;
+}
+#register > div {
+    justify-content: space-around;
+}
+
+#register h1 {
+    font-size: 2vw;
+}
+
+
+/* FAQ */
+
+#faq {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: var(--background-color);
+    height: 800px;
+
+    
+}
+
+#faq h1 {
+    font-size: 3vw;
+    margin-top: 200px;
+}
+
+
+/* contact */
+#contact img {
+    height: 700px;
+}
+
+#contact .container > div {
+    justify-content: space-between;
+}
+
+.footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 700px;
+}
+
+
+/* utility */
+
+
+.flex {
+    display: flex;
+}
+
+.container {
+    padding: 0 70px;
+}
+
